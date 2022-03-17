@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    >
+    <TextView
+        android:id="@+id/orderIdVh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Id"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:id="@+id/customerVh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:id="@+id/amountVh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:layout_margin="5dp"
+        />
+
+</LinearLayout>
